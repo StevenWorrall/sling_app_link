@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+    {
+      "appID": "CZSL76K4WK.Sling.SlingCRM",
+      "paths": ["*"]
+    }
+    ]
+  }
+}
