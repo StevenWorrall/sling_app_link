@@ -1,8 +1,40 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Congrats</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Landing Page</title>
+    <style>
+        body {
+            background-color: #E3C521;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 150px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .download-button img {
+            max-width: 200px;
+            width: 100%;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
-  <h1>You found me.</h1>
+    <img src="logo.png" alt="App Logo">
+    <div class="download-button">
+        <a href="https://apps.apple.com/us/app/create-with-sling/id6478423346" target="_blank">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the Apple App Store">
+        </a>
+    </div>
 </body>
 </html>
